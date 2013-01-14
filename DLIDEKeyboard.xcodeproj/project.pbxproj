@@ -22,6 +22,11 @@
 		1DCED2CC16A36BB80065449C /* DLIDEKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED2CB16A36BB80065449C /* DLIDEKeyboardView.m */; };
 		1DCED2D416A370CF0065449C /* key-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2D216A370CF0065449C /* key-pressed.png */; };
 		1DCED2D516A370CF0065449C /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2D316A370CF0065449C /* key.png */; };
+		1DDCECF216A45ED5007C7E31 /* key-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECEE16A45ED5007C7E31 /* key-blue.png */; };
+		1DDCECF316A45ED5007C7E31 /* key-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECEF16A45ED5007C7E31 /* key-blue@2x.png */; };
+		1DDCECF416A45ED5007C7E31 /* key-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECF016A45ED5007C7E31 /* key-pressed@2x.png */; };
+		1DDCECF516A45ED5007C7E31 /* key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECF116A45ED5007C7E31 /* key@2x.png */; };
+		1DDCECF816A46119007C7E31 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECF716A46119007C7E31 /* keyboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,11 @@
 		1DCED2CB16A36BB80065449C /* DLIDEKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLIDEKeyboardView.m; path = Classes/DLIDEKeyboardView.m; sourceTree = "<group>"; };
 		1DCED2D216A370CF0065449C /* key-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-pressed.png"; path = "Assets/key-pressed.png"; sourceTree = "<group>"; };
 		1DCED2D316A370CF0065449C /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = Assets/key.png; sourceTree = "<group>"; };
+		1DDCECEE16A45ED5007C7E31 /* key-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-blue.png"; path = "Assets/key-blue.png"; sourceTree = "<group>"; };
+		1DDCECEF16A45ED5007C7E31 /* key-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-blue@2x.png"; path = "Assets/key-blue@2x.png"; sourceTree = "<group>"; };
+		1DDCECF016A45ED5007C7E31 /* key-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-pressed@2x.png"; path = "Assets/key-pressed@2x.png"; sourceTree = "<group>"; };
+		1DDCECF116A45ED5007C7E31 /* key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key@2x.png"; path = "Assets/key@2x.png"; sourceTree = "<group>"; };
+		1DDCECF716A46119007C7E31 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keyboard.png; path = Assets/keyboard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +141,11 @@
 		1DCED2D116A370B70065449C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1DDCECF716A46119007C7E31 /* keyboard.png */,
+				1DDCECEE16A45ED5007C7E31 /* key-blue.png */,
+				1DDCECEF16A45ED5007C7E31 /* key-blue@2x.png */,
+				1DDCECF016A45ED5007C7E31 /* key-pressed@2x.png */,
+				1DDCECF116A45ED5007C7E31 /* key@2x.png */,
 				1DCED2D216A370CF0065449C /* key-pressed.png */,
 				1DCED2D316A370CF0065449C /* key.png */,
 			);
@@ -197,6 +212,11 @@
 				1DCED2C316A36A510065449C /* DLViewController_iPad.xib in Resources */,
 				1DCED2D416A370CF0065449C /* key-pressed.png in Resources */,
 				1DCED2D516A370CF0065449C /* key.png in Resources */,
+				1DDCECF216A45ED5007C7E31 /* key-blue.png in Resources */,
+				1DDCECF316A45ED5007C7E31 /* key-blue@2x.png in Resources */,
+				1DDCECF416A45ED5007C7E31 /* key-pressed@2x.png in Resources */,
+				1DDCECF516A45ED5007C7E31 /* key@2x.png in Resources */,
+				1DDCECF816A46119007C7E31 /* keyboard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +357,7 @@
 				1DCED2C816A36A510065449C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
