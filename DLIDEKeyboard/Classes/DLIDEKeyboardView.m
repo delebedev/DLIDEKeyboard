@@ -17,6 +17,7 @@ NSString *const kSecondRowKey = @"\u25D1";
 
 @interface DLIDEKeyboardView () <UIInputViewAudioFeedback> {
     NSArray *_keys;
+    NSInteger _kKeysInRow;
 }
 
 @property (nonatomic, strong) id<UITextInput> textView;
@@ -25,6 +26,8 @@ NSString *const kSecondRowKey = @"\u25D1";
 @end
 
 @implementation DLIDEKeyboardView
+
+#pragma mark - Public
 
 + (void)attachToTextView:(UIResponder<UITextInput> *)textView {
     DLIDEKeyboardView *view = [[DLIDEKeyboardView alloc] init];
@@ -35,13 +38,14 @@ NSString *const kSecondRowKey = @"\u25D1";
     [(id)textView setInputAccessoryView:view];
 }
 
+#pragma mark - NSObject
+
 - (id)init {
     if (self = [super init]) {
         CGFloat kKeyboardWidth = IS_IPAD ? 768.f : 320.f;
         CGFloat kKeyboardHeight = IS_IPAD ? 104.f : 34.f;
         self.frame = CGRectMake(0, 0, kKeyboardWidth, kKeyboardHeight);
 
-        
         UIView *border1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kKeyboardWidth, 1)];
         border1.backgroundColor = [UIColor colorWithRed:51/255. green:51/255. blue:51/255. alpha:1.];
         border1.autoresizingMask = UIViewAutoresizingFlexibleWidth;
@@ -57,12 +61,12 @@ NSString *const kSecondRowKey = @"\u25D1";
         self.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
         
         NSInteger kRows = IS_IPAD ? 2 : 1;
-        NSInteger kKeysInRow = IS_IPAD ? 14 : 10;
+        _kKeysInRow = IS_IPAD ? 14 : 10;
         CGFloat kLeftPadding = 3.f;
         CGFloat kTopPadding = 4.f;
         CGFloat kSpacing =  IS_IPAD ? 5.f : 2.f;
-        NSInteger kButtonWidth = (kKeyboardWidth - 2 * kLeftPadding - (kKeysInRow - 1) * kSpacing) / kKeysInRow;
-        kLeftPadding = (kKeyboardWidth - kButtonWidth * kKeysInRow - kSpacing * (kKeysInRow - 1)) / 2;
+        NSInteger kButtonWidth = (kKeyboardWidth - 2 * kLeftPadding - (_kKeysInRow - 1) * kSpacing) / _kKeysInRow;
+        kLeftPadding = (kKeyboardWidth - kButtonWidth * _kKeysInRow - kSpacing * (_kKeysInRow - 1)) / 2;
                 
         if (IS_IPAD) {
             _keys = @[
@@ -75,10 +79,14 @@ NSString *const kSecondRowKey = @"\u25D1";
         }
         
         for (int i = 0; i < kRows; i++) {
-            for (int j = 0; j < kKeysInRow; j++) {
+            for (int j = 0; j < _kKeysInRow; j++) {
                 UIButton *b = [UIButton buttonWithType:UIButtonTypeCustom];
                 b.tag = j + 100;
+                b.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
+                b.frame = CGRectMake(kLeftPadding + j*(kButtonWidth + kSpacing), kTopPadding + i*kButtonWidth, kButtonWidth, kButtonWidth);
                 [b addTarget:self action:@selector(handleTap:) forControlEvents:UIControlEventTouchUpInside];
+                [self addSubview:b];
+                
                 [b setTitle:_keys[i][j] forState:UIControlStateNormal];
                 [b setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
                 if (_keys[i][j] == kSecondRowKey || _keys[i][j] == kFirstRowKey) {
@@ -88,11 +96,9 @@ NSString *const kSecondRowKey = @"\u25D1";
                 }
                 [b setImage:_keys[i][j] == kHideKeyBoardKey ? [UIImage imageNamed:@"keyboard"] : nil forState:UIControlStateNormal];
                 [b setBackgroundImage:[UIImage imageNamed:@"key-pressed"] forState:UIControlStateHighlighted];
-                b.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin;
-                b.frame = CGRectMake(kLeftPadding + j*(kButtonWidth + kSpacing), kTopPadding + i*kButtonWidth, kButtonWidth, kButtonWidth);
-                [self addSubview:b];
             }
         }
+        [self refreshButtons];
     }
     return self;
 }
@@ -104,24 +110,22 @@ NSString *const kSecondRowKey = @"\u25D1";
     NSString *input = button.titleLabel.text;
     if ([input isEqualToString:kHideKeyBoardKey]) {
         [(id)self.textView resignFirstResponder];
-        return;
-    }
-    if ([input isEqualToString:kTabKey]) {
+    } else if ([input isEqualToString:kTabKey]) {
         [self.textView insertText:@"  "];
-    }
-    if ([input isEqualToString:kFirstRowKey] || [input isEqualToString:kSecondRowKey]) {
+        return;
+    } else if ([input isEqualToString:kFirstRowKey] || [input isEqualToString:kSecondRowKey]) {
         self.selectedRow = self.selectedRow == 1 ? 0 : 1;
         [self refreshButtons];
         return;
+    } else {
+        [self.textView insertText:input];
     }
-    
-    [self.textView insertText:input];
 }
 
 - (void)refreshButtons {
-    for (int j = 0; j < 10; j++) {
+    for (int j = 0; j < _kKeysInRow; j++) {
         UIButton *b = (UIButton *)[self viewWithTag:j + 100];
-        [b setImage:nil forState:UIControlStateNormal];
+        [b setImage:_keys[self.selectedRow][j] == kHideKeyBoardKey ? [UIImage imageNamed:@"keyboard"] : nil forState:UIControlStateNormal];
         [b setTitle:_keys[self.selectedRow][j] forState:UIControlStateNormal];
     }
 }
