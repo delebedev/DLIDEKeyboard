@@ -10,7 +10,6 @@
 
 @interface DLIDEKeyboardView : UIView
 
-+ (void)attachToTextView:(UITextView *)textView;
-
++ (void)attachToTextView:(id<UITextInput>)textView;
 
 @end

@@ -14,17 +14,20 @@
     NSArray *_keys;
 }
 
-@property (nonatomic, strong) UITextView *textView;
+@property (nonatomic, strong) id<UITextInput> textView;
 @property (nonatomic, strong) NSArray *keys;
 @property (nonatomic, assign) NSInteger selectedRow;
 @end
 
 @implementation DLIDEKeyboardView
 
-+ (void)attachToTextView:(UITextView *)textView {    
++ (void)attachToTextView:(UIResponder<UITextInput> *)textView {
     DLIDEKeyboardView *view = [[DLIDEKeyboardView alloc] init];
+    if (![textView isKindOfClass:[UITextView class]] && ![textView isKindOfClass:[UITextField class]]) {
+        [NSException raise:@"Keyboard can be attached only to text inputs" format:nil];
+    }
     view.textView = textView;
-    textView.inputAccessoryView = view;
+    [(id)textView setInputAccessoryView:view];
 }
 
 - (id)init {
@@ -76,7 +79,7 @@
 - (void)handleTap:(UIButton *)button {
     NSString *input = button.titleLabel.text;
     if ([input isEqualToString:@"k"]) {
-        [self.textView resignFirstResponder];
+        [(id)self.textView resignFirstResponder];
         return;
     }
     if ([input isEqualToString:@".."]) {
