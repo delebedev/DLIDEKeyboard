@@ -12,3 +12,7 @@ UITextView *textView = [[UITextView alloc] initWithFrame:self.view.bounds];
 
 ##Screenshots
 ![iPad](https://github.com/garnett/DLIDEKeyboard/blob/master/Img/iPad.jpg?raw=true)   ![iPhone](https://github.com/garnett/DLIDEKeyboard/blob/master/Img/iPhone.png?raw=true)
+
+##License
+
+DLIDEKeyboard is available under the MIT license. See the LICENSE file for more info.
