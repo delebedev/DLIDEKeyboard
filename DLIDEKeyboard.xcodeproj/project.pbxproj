@@ -10,23 +10,23 @@
 		1DCED2A416A36A510065449C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCED2A316A36A510065449C /* UIKit.framework */; };
 		1DCED2A616A36A510065449C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCED2A516A36A510065449C /* Foundation.framework */; };
 		1DCED2A816A36A510065449C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DCED2A716A36A510065449C /* CoreGraphics.framework */; };
-		1DCED2AE16A36A510065449C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2AC16A36A510065449C /* InfoPlist.strings */; };
-		1DCED2B016A36A510065449C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED2AF16A36A510065449C /* main.m */; };
-		1DCED2B416A36A510065449C /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED2B316A36A510065449C /* DLAppDelegate.m */; };
-		1DCED2B616A36A510065449C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2B516A36A510065449C /* Default.png */; };
-		1DCED2B816A36A510065449C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2B716A36A510065449C /* Default@2x.png */; };
-		1DCED2BA16A36A510065449C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2B916A36A510065449C /* Default-568h@2x.png */; };
-		1DCED2BD16A36A510065449C /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED2BC16A36A510065449C /* DLViewController.m */; };
-		1DCED2C016A36A510065449C /* DLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2BE16A36A510065449C /* DLViewController_iPhone.xib */; };
-		1DCED2C316A36A510065449C /* DLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2C116A36A510065449C /* DLViewController_iPad.xib */; };
-		1DCED2CC16A36BB80065449C /* DLIDEKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCED2CB16A36BB80065449C /* DLIDEKeyboardView.m */; };
-		1DCED2D416A370CF0065449C /* key-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2D216A370CF0065449C /* key-pressed.png */; };
-		1DCED2D516A370CF0065449C /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DCED2D316A370CF0065449C /* key.png */; };
-		1DDCECF216A45ED5007C7E31 /* key-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECEE16A45ED5007C7E31 /* key-blue.png */; };
-		1DDCECF316A45ED5007C7E31 /* key-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECEF16A45ED5007C7E31 /* key-blue@2x.png */; };
-		1DDCECF416A45ED5007C7E31 /* key-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECF016A45ED5007C7E31 /* key-pressed@2x.png */; };
-		1DDCECF516A45ED5007C7E31 /* key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECF116A45ED5007C7E31 /* key@2x.png */; };
-		1DDCECF816A46119007C7E31 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECF716A46119007C7E31 /* keyboard.png */; };
+		1DDCED0E16A46D9F007C7E31 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECFD16A46D9F007C7E31 /* Default-568h@2x.png */; };
+		1DDCED0F16A46D9F007C7E31 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECFE16A46D9F007C7E31 /* Default.png */; };
+		1DDCED1016A46D9F007C7E31 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCECFF16A46D9F007C7E31 /* Default@2x.png */; };
+		1DDCED1116A46D9F007C7E31 /* DLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCED0116A46D9F007C7E31 /* DLAppDelegate.m */; };
+		1DDCED1316A46D9F007C7E31 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCED0516A46D9F007C7E31 /* DLViewController.m */; };
+		1DDCED1416A46D9F007C7E31 /* DLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED0716A46D9F007C7E31 /* DLViewController_iPad.xib */; };
+		1DDCED1516A46D9F007C7E31 /* DLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED0916A46D9F007C7E31 /* DLViewController_iPhone.xib */; };
+		1DDCED1616A46D9F007C7E31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED0B16A46D9F007C7E31 /* InfoPlist.strings */; };
+		1DDCED1716A46D9F007C7E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCED0D16A46D9F007C7E31 /* main.m */; };
+		1DDCED2416A46DA5007C7E31 /* key-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED1A16A46DA5007C7E31 /* key-blue.png */; };
+		1DDCED2516A46DA5007C7E31 /* key-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED1B16A46DA5007C7E31 /* key-blue@2x.png */; };
+		1DDCED2616A46DA5007C7E31 /* key-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED1C16A46DA5007C7E31 /* key-pressed.png */; };
+		1DDCED2716A46DA5007C7E31 /* key-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED1D16A46DA5007C7E31 /* key-pressed@2x.png */; };
+		1DDCED2816A46DA5007C7E31 /* key.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED1E16A46DA5007C7E31 /* key.png */; };
+		1DDCED2916A46DA5007C7E31 /* key@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED1F16A46DA5007C7E31 /* key@2x.png */; };
+		1DDCED2A16A46DA5007C7E31 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDCED2016A46DA5007C7E31 /* keyboard.png */; };
+		1DDCED2B16A46DA5007C7E31 /* DLIDEKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDCED2316A46DA5007C7E31 /* DLIDEKeyboardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,28 +34,28 @@
 		1DCED2A316A36A510065449C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1DCED2A516A36A510065449C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DCED2A716A36A510065449C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1DCED2AB16A36A510065449C /* DLIDEKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLIDEKeyboard-Info.plist"; sourceTree = "<group>"; };
-		1DCED2AD16A36A510065449C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1DCED2AF16A36A510065449C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1DCED2B116A36A510065449C /* DLIDEKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DLIDEKeyboard-Prefix.pch"; sourceTree = "<group>"; };
-		1DCED2B216A36A510065449C /* DLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLAppDelegate.h; sourceTree = "<group>"; };
-		1DCED2B316A36A510065449C /* DLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLAppDelegate.m; sourceTree = "<group>"; };
-		1DCED2B516A36A510065449C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		1DCED2B716A36A510065449C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		1DCED2B916A36A510065449C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		1DCED2BB16A36A510065449C /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
-		1DCED2BC16A36A510065449C /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
-		1DCED2BF16A36A510065449C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DLViewController_iPhone.xib; sourceTree = "<group>"; };
-		1DCED2C216A36A510065449C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DLViewController_iPad.xib; sourceTree = "<group>"; };
-		1DCED2CA16A36BB80065449C /* DLIDEKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLIDEKeyboardView.h; path = Classes/DLIDEKeyboardView.h; sourceTree = "<group>"; };
-		1DCED2CB16A36BB80065449C /* DLIDEKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLIDEKeyboardView.m; path = Classes/DLIDEKeyboardView.m; sourceTree = "<group>"; };
-		1DCED2D216A370CF0065449C /* key-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-pressed.png"; path = "Assets/key-pressed.png"; sourceTree = "<group>"; };
-		1DCED2D316A370CF0065449C /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = key.png; path = Assets/key.png; sourceTree = "<group>"; };
-		1DDCECEE16A45ED5007C7E31 /* key-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-blue.png"; path = "Assets/key-blue.png"; sourceTree = "<group>"; };
-		1DDCECEF16A45ED5007C7E31 /* key-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-blue@2x.png"; path = "Assets/key-blue@2x.png"; sourceTree = "<group>"; };
-		1DDCECF016A45ED5007C7E31 /* key-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key-pressed@2x.png"; path = "Assets/key-pressed@2x.png"; sourceTree = "<group>"; };
-		1DDCECF116A45ED5007C7E31 /* key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "key@2x.png"; path = "Assets/key@2x.png"; sourceTree = "<group>"; };
-		1DDCECF716A46119007C7E31 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = keyboard.png; path = Assets/keyboard.png; sourceTree = "<group>"; };
+		1DDCECFD16A46D9F007C7E31 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Example/Default-568h@2x.png"; sourceTree = "<group>"; };
+		1DDCECFE16A46D9F007C7E31 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Example/Default.png; sourceTree = "<group>"; };
+		1DDCECFF16A46D9F007C7E31 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Example/Default@2x.png"; sourceTree = "<group>"; };
+		1DDCED0016A46D9F007C7E31 /* DLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLAppDelegate.h; path = Example/DLAppDelegate.h; sourceTree = "<group>"; };
+		1DDCED0116A46D9F007C7E31 /* DLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLAppDelegate.m; path = Example/DLAppDelegate.m; sourceTree = "<group>"; };
+		1DDCED0216A46D9F007C7E31 /* DLIDEKeyboard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DLIDEKeyboard-Info.plist"; path = "Example/DLIDEKeyboard-Info.plist"; sourceTree = "<group>"; };
+		1DDCED0316A46D9F007C7E31 /* DLIDEKeyboard-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DLIDEKeyboard-Prefix.pch"; path = "Example/DLIDEKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		1DDCED0416A46D9F007C7E31 /* DLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLViewController.h; path = Example/DLViewController.h; sourceTree = "<group>"; };
+		1DDCED0516A46D9F007C7E31 /* DLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLViewController.m; path = Example/DLViewController.m; sourceTree = "<group>"; };
+		1DDCED0816A46D9F007C7E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = DLViewController_iPad.xib; sourceTree = "<group>"; };
+		1DDCED0A16A46D9F007C7E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = DLViewController_iPhone.xib; sourceTree = "<group>"; };
+		1DDCED0C16A46D9F007C7E31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		1DDCED0D16A46D9F007C7E31 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = "<group>"; };
+		1DDCED1A16A46DA5007C7E31 /* key-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-blue.png"; sourceTree = "<group>"; };
+		1DDCED1B16A46DA5007C7E31 /* key-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-blue@2x.png"; sourceTree = "<group>"; };
+		1DDCED1C16A46DA5007C7E31 /* key-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-pressed.png"; sourceTree = "<group>"; };
+		1DDCED1D16A46DA5007C7E31 /* key-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key-pressed@2x.png"; sourceTree = "<group>"; };
+		1DDCED1E16A46DA5007C7E31 /* key.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key.png; sourceTree = "<group>"; };
+		1DDCED1F16A46DA5007C7E31 /* key@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "key@2x.png"; sourceTree = "<group>"; };
+		1DDCED2016A46DA5007C7E31 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		1DDCED2216A46DA5007C7E31 /* DLIDEKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLIDEKeyboardView.h; sourceTree = "<group>"; };
+		1DDCED2316A46DA5007C7E31 /* DLIDEKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLIDEKeyboardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,18 @@
 		1DCED29416A36A510065449C = {
 			isa = PBXGroup;
 			children = (
-				1DCED2A916A36A510065449C /* DLIDEKeyboard */,
+				1DDCED1816A46DA5007C7E31 /* DLIDEKeyboard */,
+				1DDCECFD16A46D9F007C7E31 /* Default-568h@2x.png */,
+				1DDCECFE16A46D9F007C7E31 /* Default.png */,
+				1DDCECFF16A46D9F007C7E31 /* Default@2x.png */,
+				1DDCED0016A46D9F007C7E31 /* DLAppDelegate.h */,
+				1DDCED0116A46D9F007C7E31 /* DLAppDelegate.m */,
+				1DDCED0216A46D9F007C7E31 /* DLIDEKeyboard-Info.plist */,
+				1DDCED0316A46D9F007C7E31 /* DLIDEKeyboard-Prefix.pch */,
+				1DDCED0416A46D9F007C7E31 /* DLViewController.h */,
+				1DDCED0516A46D9F007C7E31 /* DLViewController.m */,
+				1DDCED0616A46D9F007C7E31 /* en.lproj */,
+				1DDCED0D16A46D9F007C7E31 /* main.m */,
 				1DCED2A216A36A510065449C /* Frameworks */,
 				1DCED2A016A36A510065449C /* Products */,
 			);
@@ -99,57 +110,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1DCED2A916A36A510065449C /* DLIDEKeyboard */ = {
+		1DDCED0616A46D9F007C7E31 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				1DCED2D116A370B70065449C /* Assets */,
-				1DCED2C916A36B200065449C /* Classes */,
-				1DCED2B216A36A510065449C /* DLAppDelegate.h */,
-				1DCED2B316A36A510065449C /* DLAppDelegate.m */,
-				1DCED2BB16A36A510065449C /* DLViewController.h */,
-				1DCED2BC16A36A510065449C /* DLViewController.m */,
-				1DCED2BE16A36A510065449C /* DLViewController_iPhone.xib */,
-				1DCED2C116A36A510065449C /* DLViewController_iPad.xib */,
-				1DCED2AA16A36A510065449C /* Supporting Files */,
+				1DDCED0716A46D9F007C7E31 /* DLViewController_iPad.xib */,
+				1DDCED0916A46D9F007C7E31 /* DLViewController_iPhone.xib */,
+				1DDCED0B16A46D9F007C7E31 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = Example/en.lproj;
+			sourceTree = "<group>";
+		};
+		1DDCED1816A46DA5007C7E31 /* DLIDEKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1DDCED1916A46DA5007C7E31 /* Assets */,
+				1DDCED2116A46DA5007C7E31 /* Classes */,
 			);
 			path = DLIDEKeyboard;
 			sourceTree = "<group>";
 		};
-		1DCED2AA16A36A510065449C /* Supporting Files */ = {
+		1DDCED1916A46DA5007C7E31 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				1DCED2AB16A36A510065449C /* DLIDEKeyboard-Info.plist */,
-				1DCED2AC16A36A510065449C /* InfoPlist.strings */,
-				1DCED2AF16A36A510065449C /* main.m */,
-				1DCED2B116A36A510065449C /* DLIDEKeyboard-Prefix.pch */,
-				1DCED2B516A36A510065449C /* Default.png */,
-				1DCED2B716A36A510065449C /* Default@2x.png */,
-				1DCED2B916A36A510065449C /* Default-568h@2x.png */,
+				1DDCED1A16A46DA5007C7E31 /* key-blue.png */,
+				1DDCED1B16A46DA5007C7E31 /* key-blue@2x.png */,
+				1DDCED1C16A46DA5007C7E31 /* key-pressed.png */,
+				1DDCED1D16A46DA5007C7E31 /* key-pressed@2x.png */,
+				1DDCED1E16A46DA5007C7E31 /* key.png */,
+				1DDCED1F16A46DA5007C7E31 /* key@2x.png */,
+				1DDCED2016A46DA5007C7E31 /* keyboard.png */,
 			);
-			name = "Supporting Files";
+			path = Assets;
 			sourceTree = "<group>";
 		};
-		1DCED2C916A36B200065449C /* Classes */ = {
+		1DDCED2116A46DA5007C7E31 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1DCED2CA16A36BB80065449C /* DLIDEKeyboardView.h */,
-				1DCED2CB16A36BB80065449C /* DLIDEKeyboardView.m */,
+				1DDCED2216A46DA5007C7E31 /* DLIDEKeyboardView.h */,
+				1DDCED2316A46DA5007C7E31 /* DLIDEKeyboardView.m */,
 			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		1DCED2D116A370B70065449C /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				1DDCECF716A46119007C7E31 /* keyboard.png */,
-				1DDCECEE16A45ED5007C7E31 /* key-blue.png */,
-				1DDCECEF16A45ED5007C7E31 /* key-blue@2x.png */,
-				1DDCECF016A45ED5007C7E31 /* key-pressed@2x.png */,
-				1DDCECF116A45ED5007C7E31 /* key@2x.png */,
-				1DCED2D216A370CF0065449C /* key-pressed.png */,
-				1DCED2D316A370CF0065449C /* key.png */,
-			);
-			name = Assets;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,19 +205,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DCED2AE16A36A510065449C /* InfoPlist.strings in Resources */,
-				1DCED2B616A36A510065449C /* Default.png in Resources */,
-				1DCED2B816A36A510065449C /* Default@2x.png in Resources */,
-				1DCED2BA16A36A510065449C /* Default-568h@2x.png in Resources */,
-				1DCED2C016A36A510065449C /* DLViewController_iPhone.xib in Resources */,
-				1DCED2C316A36A510065449C /* DLViewController_iPad.xib in Resources */,
-				1DCED2D416A370CF0065449C /* key-pressed.png in Resources */,
-				1DCED2D516A370CF0065449C /* key.png in Resources */,
-				1DDCECF216A45ED5007C7E31 /* key-blue.png in Resources */,
-				1DDCECF316A45ED5007C7E31 /* key-blue@2x.png in Resources */,
-				1DDCECF416A45ED5007C7E31 /* key-pressed@2x.png in Resources */,
-				1DDCECF516A45ED5007C7E31 /* key@2x.png in Resources */,
-				1DDCECF816A46119007C7E31 /* keyboard.png in Resources */,
+				1DDCED0E16A46D9F007C7E31 /* Default-568h@2x.png in Resources */,
+				1DDCED0F16A46D9F007C7E31 /* Default.png in Resources */,
+				1DDCED1016A46D9F007C7E31 /* Default@2x.png in Resources */,
+				1DDCED1416A46D9F007C7E31 /* DLViewController_iPad.xib in Resources */,
+				1DDCED1516A46D9F007C7E31 /* DLViewController_iPhone.xib in Resources */,
+				1DDCED1616A46D9F007C7E31 /* InfoPlist.strings in Resources */,
+				1DDCED2416A46DA5007C7E31 /* key-blue.png in Resources */,
+				1DDCED2516A46DA5007C7E31 /* key-blue@2x.png in Resources */,
+				1DDCED2616A46DA5007C7E31 /* key-pressed.png in Resources */,
+				1DDCED2716A46DA5007C7E31 /* key-pressed@2x.png in Resources */,
+				1DDCED2816A46DA5007C7E31 /* key.png in Resources */,
+				1DDCED2916A46DA5007C7E31 /* key@2x.png in Resources */,
+				1DDCED2A16A46DA5007C7E31 /* keyboard.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,38 +228,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DCED2B016A36A510065449C /* main.m in Sources */,
-				1DCED2B416A36A510065449C /* DLAppDelegate.m in Sources */,
-				1DCED2BD16A36A510065449C /* DLViewController.m in Sources */,
-				1DCED2CC16A36BB80065449C /* DLIDEKeyboardView.m in Sources */,
+				1DDCED1116A46D9F007C7E31 /* DLAppDelegate.m in Sources */,
+				1DDCED1316A46D9F007C7E31 /* DLViewController.m in Sources */,
+				1DDCED1716A46D9F007C7E31 /* main.m in Sources */,
+				1DDCED2B16A46DA5007C7E31 /* DLIDEKeyboardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1DCED2AC16A36A510065449C /* InfoPlist.strings */ = {
+		1DDCED0716A46D9F007C7E31 /* DLViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DCED2AD16A36A510065449C /* en */,
+				1DDCED0816A46D9F007C7E31 /* en */,
 			);
-			name = InfoPlist.strings;
+			name = DLViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
-		1DCED2BE16A36A510065449C /* DLViewController_iPhone.xib */ = {
+		1DDCED0916A46D9F007C7E31 /* DLViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DCED2BF16A36A510065449C /* en */,
+				1DDCED0A16A46D9F007C7E31 /* en */,
 			);
 			name = DLViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		1DCED2C116A36A510065449C /* DLViewController_iPad.xib */ = {
+		1DDCED0B16A46D9F007C7E31 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1DCED2C216A36A510065449C /* en */,
+				1DDCED0C16A46D9F007C7E31 /* en */,
 			);
-			name = DLViewController_iPad.xib;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -320,8 +321,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DLIDEKeyboard/DLIDEKeyboard-Prefix.pch";
-				INFOPLIST_FILE = "DLIDEKeyboard/DLIDEKeyboard-Info.plist";
+				GCC_PREFIX_HEADER = "Example/DLIDEKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "Example/DLIDEKeyboard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -331,8 +332,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DLIDEKeyboard/DLIDEKeyboard-Prefix.pch";
-				INFOPLIST_FILE = "DLIDEKeyboard/DLIDEKeyboard-Info.plist";
+				GCC_PREFIX_HEADER = "Example/DLIDEKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "Example/DLIDEKeyboard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
