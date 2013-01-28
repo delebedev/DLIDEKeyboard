@@ -31,7 +31,7 @@ NSString *const kSecondRowKey = @"\u25D1";
 
 + (void)attachToTextView:(UIResponder<UITextInput> *)textView {
     DLIDEKeyboardView *view = [[DLIDEKeyboardView alloc] init];
-    if (![textView isKindOfClass:[UITextView class]] && ![textView isKindOfClass:[UITextField class]]) {
+    if (![textView respondsToSelector:@selector(setInputAccessoryView:)]) {
         [NSException raise:@"Keyboard can be attached only to text inputs" format:nil];
     }
     view.textView = textView;
